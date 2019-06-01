@@ -7,6 +7,12 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="moh.sentinelapi.AddSyndrome"
+        title="moh.sentinelapi: Add Syndrome"
+    />
+
+
+    <permission
         id="moh.sentinelapi.AddSite"
         title="moh.sentinelapi: Add Site"
     />
