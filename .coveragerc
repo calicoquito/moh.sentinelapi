@@ -1,0 +1,6 @@
+[report]
+include =
+    src/moh/*
+omit =
+    */test*
+    */upgrades/*
