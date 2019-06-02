@@ -6,12 +6,7 @@
 moh.sentinelapi
 ===============
 
-Tell me what your product does
-
-Features
---------
-
-- Can be bullet points
+This is an early prototype of an open source platform for capturing aggregated health data.
 
 
 Installation
@@ -26,6 +21,8 @@ Setup virtualenv, install requirements and build::
 Launch with the following command::
 
     ./bin/instance fg
+
+The system provides a REST api for capturing of syndrome data by Epi Week. The api can be consumed by REST clients.
 
 Documentation
 -------------
