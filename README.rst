@@ -14,12 +14,18 @@ Features
 - Can be bullet points
 
 
-Examples
---------
+Installation
+------------
 
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+Setup virtualenv, install requirements and build::
 
+    virtualenv --clear .
+    ./bin/pip install -r requirements.txt
+    ./bin/buildout
+
+Launch with the following command::
+
+    ./bin/instance fg
 
 Documentation
 -------------
@@ -27,16 +33,9 @@ Documentation
 Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
 
 
-Translations
-------------
 
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
-
-Installation
-------------
+Adding to an existing build
+--------------------------------
 
 Install moh.sentinelapi by adding it to your buildout::
 
@@ -54,16 +53,16 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/moh.sentinelapi/issues
-- Source Code: https://github.com/collective/moh.sentinelapi
-- Documentation: https://docs.plone.org/foo/bar
+- Issue Tracker: https://github.com/calicoquito/moh.sentinelapi/issues
+- Source Code: https://github.com/calicoquito/moh.sentinelapi
+- Documentation: https://moh-sentinel-api.readthedocs.io/
 
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+Through our Issue Tracker: https://github.com/calicoquito/moh.sentinelapi/issues
 
 
 License
