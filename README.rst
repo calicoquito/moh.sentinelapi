@@ -6,20 +6,11 @@
 moh.sentinelapi
 ===============
 
-Tell me what your product does
+This is an early prototype of an open source platform for capturing aggregated health data.
 
 Features
 --------
-
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
+The system provides a REST api for capturing of syndrome data by Epi Week. The api can be consumed by REST clients.
 
 Documentation
 -------------
