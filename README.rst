@@ -46,6 +46,20 @@ Install moh.sentinelapi by adding it to your buildout::
 
 and then running ``bin/buildout``
 
+Docker Image
+--------------
+From the root folder of this addon run:
+
+::
+
+     docker build .
+
+The output will generate a unique docker image (note the image hash)
+Then you can launch it with (replace <imagehash> with your docker image hash:
+
+::
+
+   docker run -it -p 8080:8080 <imagehash>
 
 Contribute
 ----------
